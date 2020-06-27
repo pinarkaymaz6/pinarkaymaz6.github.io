@@ -2,7 +2,7 @@
 title: "About"
 permalink: /about/
 header:
-  image: "/images/cover.jpg"
+  image: "/images/cover.JPG"
 ---
 
 Graduate, Msc. Computer Science at TUM
