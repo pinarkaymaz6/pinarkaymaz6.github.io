@@ -8,7 +8,7 @@ excerpt: "GitHub Pages, Jekyll, Static Websites"
 mathjax: "true"
 ---
 
-I was considering creating a profile page or blog for myself for a while. However, I was puting the idea off basically because creating content for your projects is not the easiest task and setting up a website make you procrastinate even more. Not any more!
+I was considering creating a profile page or a blog for myself for a while. However, I was puting this idea off basically because creating content for your projects is not the easiest task and having to set up a website makes you procrastinate even more. Not any more!
 
 It took me a couple of minutes to set up a profile with [GitHub Pages](https://pages.github.com/). You can have your website _freely_ hosted on GitHub’s `github.io` domain or on your custom domain.
 > GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website.  
