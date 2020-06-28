@@ -30,7 +30,7 @@ I started looking for a minimalist theme ideas for my profile page and came acro
 
 - Now you can customize your website and publish content in `Markdown` format. Go ahead and clone this repository on your machine. 
 
-- Go into the `your-username@github.io` folder ans open `_config.yml` file in your favorite editor. Now replace the `author` attributes with yours. 
+- Go into the `your-username@github.io` folder and open `_config.yml` file in your favorite editor. Now replace the `author` attributes with yours. 
   - Replace the names and the images. 
   - Add your social media accounts.
 -  You can also change the skin of the website by updating `minimal_mistakes_skin` on top of the config file. Mine is `dirt`. 
