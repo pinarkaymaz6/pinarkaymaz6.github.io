@@ -3,7 +3,7 @@ title: "How to set up static websites with Github Pages"
 date: 2020-06-28
 tags: [github pages, jekyll, static website]
 header:
-  image: "/images/githubpages/gh_pages.jpg"
+  image: "/images/githubpages/gh_pages.png"
 excerpt: "GitHub Pages, Jekyll, Static Websites"
 mathjax: "true"
 ---
