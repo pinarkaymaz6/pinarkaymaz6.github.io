@@ -8,56 +8,34 @@ excerpt: "GitHub Pages, Jekyll, Static Websites"
 mathjax: "true"
 ---
 
-# H1 Heading
+I was considering creating a profile page or blog for myself for a while. However, I was puting the idea off basically because creating content for your projects is not the easiest task and setting up a website make you procrastinate even more. Not any more!
 
-## H2 Heading
+It took me a couple of minutes to set up a profile with [GitHub Pages](https://pages.github.com/). You can have your website _freely_ hosted on GitHub’s `github.io` domain or on your custom domain.
+> GitHub Pages is a static site hosting service that takes HTML, CSS, and JavaScript files straight from a repository on GitHub, optionally runs the files through a build process, and publishes a website.  
 
-### H3 Heading
+I started looking for a minimalist theme ideas for my profile page and came across this open source theme by [DataOptimal](https://github.com/dataoptimal/dataoptimal.github.io) which was built on top of the [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes). In the following are the steps that I followed to deploy a version of it myself.
 
-Here's some basic text.
+- Navigate to `dataoptimal.github.io` repository [here](https://github.com/dataoptimal/dataoptimal.github.io) and fork this repo.
 
-And here's some *italics*
+![alt]({{ site.url }}{{ site.baseurl }}/images/githubpages/fork.png)
 
-Here's some **bold** text.
+- Go to your repositories, the repo you just forked must have been added on your GitHub profile. You now have your own copy of the repository and can customize the files. 
 
-What about a [link](https://github.com/dataoptimal)?
 
-Here's a bulleted list:
-* First item
-+ Second item
-- Third item
+- It's time to change the repo name. Go to `Settings` in your repo and edit repository name as seen below. The repo name should follow the convension and it should be your GitHub handle followed by `github.io`. Mine is `pinarkaymaz6@github.io`. 
 
-Here's a numbered list:
-1. First
-2. Second
-3. Third
+![alt]({{ site.url }}{{ site.baseurl }}/images/githubpages/reponame.png)
 
-Python code block:
-```python
-    import numpy as np
+- If you rename your repo correctly, go check your website. It should be up and running shortly on `your-username@github.io`. 
 
-    def test_function(x, y):
-      z = np.sum(x,y)
-      return z
-```
+- Now you can customize your website and publish content in `Markdown` format. There are two main methods to edit the files: you can clone this repository on your machine or directly edit the files on the GitHub dashboard. Either way, your changes will be deployed once you save your changes on the dashboard or push it from your local copy to the remote master branch. 
 
-R code block:
-```r
-library(tidyverse)
-df <- read_csv("some_file.csv")
-head(df)
-```
+- Go to the `_config.yml` file and replace the `author` attributes with yours. 
+  - Replace the names and the images. 
+  - Add your social media accounts.
+-  You can also change the skin of the website by updating `minimal_mistakes_skin` on top of the config file. Mine is `dirt`. 
+- To create a post, navigate to the `_post` folder and create a `Markdown` file following the naming convention `YYYY-MM-DD-<URL-PATH>`. 
+- Now, push your changes to `master` branch and go check your website. It might take a minute to deploy, then try hard refreshing (`cmd + shift + R`) to see your changes.
 
-Here's some inline code `x+y`.
+This is all. I hope this was helpful. 
 
-Here's an image:
-<img src="{{ site.url }}{{ site.baseurl }}/images/perceptron/linsep.jpg" alt="linearly separable data">
-
-Here's another image using Kramdown:
-![alt]({{ site.url }}{{ site.baseurl }}/images/perceptron/linsep.jpg)
-
-Here's some math:
-
-$$z=x+y$$
-
-You can also put it inline $$z=x+y$$
