@@ -34,7 +34,7 @@ I started looking for a minimalist theme ideas for my profile page and came acro
   - Replace the names and the images. 
   - Add your social media accounts.
 -  You can also change the skin of the website by updating `minimal_mistakes_skin` on top of the config file. Mine is `dirt`. 
-- To create a post, navigate to the `_post` folder and create a `Markdown` file following the naming convention `YYYY-MM-DD-<URL-PATH>`. 
+- To create a post, navigate to the `_post` folder and create a `Markdown` file following the naming convention `YYYY-MM-DD-<URL-PATH>.md`. 
 - Now, push your changes to `master` branch and go check your website. It might take a minute to deploy, then try hard refreshing (`cmd + shift + R`) to see your changes.
 
 This is all. I hope this was helpful. 
