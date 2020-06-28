@@ -28,14 +28,14 @@ I started looking for a minimalist theme ideas for my profile page and came acro
 
 - If you rename your repo correctly, go check your website. It should be up and running shortly on `your-username@github.io`. 
 
-- Now you can customize your website and publish content in `Markdown` format. There are two main methods to edit the files: you can clone this repository on your machine or directly edit the files on the GitHub dashboard. Either way, your changes will be deployed once you save your changes on the dashboard or push it from your local copy to the remote master branch. 
+- Now you can customize your website and publish content in `Markdown` format. Go ahead and clone this repository on your machine. 
 
-- Go to the `_config.yml` file and replace the `author` attributes with yours. 
+- Go into the `your-username@github.io` folder ans open `_config.yml` file in your favorite editor. Now replace the `author` attributes with yours. 
   - Replace the names and the images. 
   - Add your social media accounts.
 -  You can also change the skin of the website by updating `minimal_mistakes_skin` on top of the config file. Mine is `dirt`. 
 - To create a post, navigate to the `_post` folder and create a `Markdown` file following the naming convention `YYYY-MM-DD-<URL-PATH>.md`. 
-- Now, push your changes to `master` branch and go check your website. It might take a minute to deploy, then try hard refreshing (`cmd + shift + R`) to see your changes.
+- Your changes will be deployed once you push your changes. Now, push your changes to `master` branch and go check your website. It might take a minute to deploy, then try hard refreshing (`cmd + shift + R`) to see your changes.
 
 This is all. I hope this was helpful. 
 
