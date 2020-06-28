@@ -15,7 +15,7 @@ There are a lot of public resources about Data Science out there. I, for one, ap
 
   This hands-on course covers basic Data Science and Machine Learning algorithms. The course content introdues Python data science packages and the most common machine learning algorithms. Especially, the visualization chapters are quite useful. I was able to easily apply the visualization techniques in my master's thesis. 
 
-### 2. Deep Learning Specialization by [Coursera]() (Free)
+### 2. Deep Learning Specialization by [Coursera](https://www.coursera.org/specializations/deep-learning) (Free)
   This specialization which you can audit for free is offered by legendary Andrew Ng. It introduces Deep Learning and Neural Networks. I was able to pass my Deep Learning exam thanks to this specialization. No kidding.
 
 
