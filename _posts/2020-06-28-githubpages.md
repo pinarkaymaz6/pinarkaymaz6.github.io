@@ -1,6 +1,6 @@
 ---
 title: "How to set up static websites with Github Pages"
-date: 2020-06-28
+date: 2020-07-07
 tags: [github pages, jekyll, static website]
 header:
   image: "/images/githubpages/gh_pages.png"
@@ -34,6 +34,14 @@ I started looking for a minimalist theme ideas for my profile page and came acro
   - Replace the names and the images. 
   - Add your social media accounts.
 -  You can also change the skin of the website by updating `minimal_mistakes_skin` on top of the config file. Mine is `dirt`. 
+- Integrate Analytics  
+  One of my favorite things about `Minimal Mistake` theme is that the setup for the analytics is already in place. In `_includes/analytics-providers` folder, there are couple of base html pages with tracking code. All you have to do is to add your `Tracking ID` in to the `_config.yml` file. For example, if you are using `Google Analytics`, you can set values as seen below. If you don't have a tracking ID, go to [Google Analytics](https://analytics.google.com/analytics/web/) dashboard to start analytics service and get your tracking ID.
+  ```python
+  analytics:
+  provider               : "google-universal" 
+  google:
+    tracking_id          : "XX-XXXXXXXXX-X"
+  ```
 - To create a post, navigate to the `_post` folder and create a `Markdown` file following the naming convention `YYYY-MM-DD-<URL-PATH>.md`. 
 - Your changes will be deployed once you push your changes. Now, push your changes to `master` branch and go check your website. It might take a minute to deploy, then try hard refreshing (`cmd + shift + R`) to see your changes.
 
