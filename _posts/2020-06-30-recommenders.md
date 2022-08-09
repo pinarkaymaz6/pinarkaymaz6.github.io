@@ -1,5 +1,5 @@
 ---
-title: "Simple Web Application for Data Science Demos (IN PROGRESS)"
+title: "Simple Web Application for Data Science Demos"
 date: 2020-06-30
 tags: [flask, python, gcp]
 header:
@@ -7,8 +7,6 @@ header:
 excerpt: "Python, Flask, Google App Engine"
 mathjax: "true"
 ---
-
-IN PROGRRESS
 
 I've been playing around with data science algorithms for a while now. Recently, I watched a tutorial from Pierian Data on Udemy and created a content-based movie recommender. Then I went ahead and built a web application to showcase it. 
 

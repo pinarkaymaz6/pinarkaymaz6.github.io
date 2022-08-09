@@ -1,5 +1,5 @@
 ---
-title: "Useful Data Science Resources for Beginners (Updated Regularly)"
+title: "Useful Data Science Resources for Beginners"
 date: 2020-07-02
 tags: [data science, python]
 header:
